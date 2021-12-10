@@ -1,0 +1,33 @@
+{
+  "name": "webpack-to-do-list-review",
+  "version": "1.0.0",
+  "description": "Webpack to do list review",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koomekevo/Webpack-To-Do-List-Review.git"
+  },
+  "keywords": [
+    "to-do-list"
+  ],
+  "author": "Kevin koome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koomekevo/Webpack-To-Do-List-Review/issues"
+  },
+  "homepage": "https://github.com/koomekevo/Webpack-To-Do-List-Review#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
